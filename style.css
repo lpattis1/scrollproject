@@ -1,0 +1,95 @@
+/* global styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html {
+    font-size: 62.5%;
+  }
+  
+  body {
+    line-height: 1.7;
+    font-family: "Roboto", sans-serif;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  li {
+    list-style: none;
+  }
+  
+  :focus {
+    outline-width: 0;
+  }
+
+ 
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10vh;
+}
+
+.top-box {
+    margin-bottom: 60vh;
+    font-size: 4rem;
+    visibility: hidden;
+}
+
+.middle-box {
+    margin-bottom: 60vh;
+    font-size: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    
+}
+
+.middle-box input {
+    padding: 2rem 5rem;
+    width: 60%;
+    margin: auto;
+    margin-top: 2rem;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.middle-box .submit {
+    padding: 2rem;
+    width: 20%;
+    margin: auto;
+    margin-top: 2rem;
+    cursor: pointer;
+}
+
+.middle-box-2 {
+    margin-bottom: 70vh;
+    font-size: 4rem;
+
+}
+
+.bottom-box {
+    margin-bottom: 60vh;
+    font-size: 4rem;
+  
+}
+
+.show {
+    visibility: visible;
+}
+
+.hide {
+    visibility: hidden;
+}
+
+.transition {
+    transition: 1s ease-in-out;
+}
+
